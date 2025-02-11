@@ -36,9 +36,11 @@ androidx-runtime-android = { group= "androidx.compose.runtime", name = "runtime-
 androidx-material3-android = { group = "androidx.compose.material3", name="material3-android", version.ref = "material3Android"}
 android-compose-material = { module= "androidx.compose.material:material", version.ref= "compose"}
 
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 hilt-android = { id="com.google.dagger.hilt.android", version.ref = "hilt"}
 kotlin-kapt = { id="org.jetbrains.kotlin.kapt", version.ref = "kotlin"}
+
